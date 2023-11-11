@@ -1,0 +1,91 @@
+/* styles.css */
+
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo gris claro */
+}
+
+/* Contenedor principal con anchura máxima de 800px y centrado en la página */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para la cabecera de la página */
+header {
+    background-color: #333; /* Fondo negro para la cabecera */
+    color: #fff; /* Texto blanco */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    display: flex;
+    justify-content: space-between; /* Espacio uniforme entre los elementos */
+    padding: 10px 0;
+}
+
+/* Estilos para los enlaces de navegación */
+nav a {
+    color: #333; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    padding: 5px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+/* Cambio de color de fondo al pasar el ratón sobre los enlaces de navegación */
+nav a:hover {
+    background-color: #ddd; /* Color de fondo más claro al pasar el ratón */
+}
+
+/* Estilos para la barra de búsqueda */
+.search-bar {
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilos para el campo de entrada de texto en la barra de búsqueda */
+input[type="text"] {
+    width: 80%; /* Ancho del 80% del contenedor */
+    padding: 10px; /* Relleno interno */
+    margin-right: 10px; /* Margen derecho */
+    border: 1px solid #ddd; /* Borde delgado con sombra */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos para el botón en la barra de búsqueda */
+button {
+    padding: 10px; /* Relleno interno */
+    background-color: #333; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambio de cursor al pasar el ratón */
+}
+
+/* Cambio de color de fondo al pasar el ratón sobre el botón */
+button:hover {
+    background-color: #555; /* Fondo más oscuro al pasar el ratón */
+}
+
+/* Estilos para la lista no ordenada */
+ul {
+    list-style: none; /* Sin viñetas ni números en la lista */
+    padding: 0; /* Sin relleno */
+}
+
+/* Estilos para cada elemento de la lista */
+li {
+    margin-bottom: 10px; /* Margen inferior */
+    background-color: #fff; /* Fondo blanco para cada elemento */
+    padding: 10px; /* Relleno interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Agregar más estilos según sea necesario para diferentes componentes y elementos */
